@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MonteCristo
+namespace Roulett
 {
-    class Box
+    public class Box
     {
         private int number;
         private string color;
@@ -33,7 +33,7 @@ namespace MonteCristo
         }
 
     }
-    class Roulett
+    public class Roulett
     {
         private static int Min = 1;
         private static int Max = 37;
@@ -68,8 +68,10 @@ namespace MonteCristo
         //returns the tile that is spun
         public Box Spin() {
             
-            return Boxes[rand.Next(Min, Max)];
+            return Boxes[rand.Next(Min, Max)-1];
         }
+
+
 
         public double Play(double amt,string bet)
         {
@@ -81,7 +83,7 @@ namespace MonteCristo
                 Console.WriteLine(spin.Color + " " + spin.Number);
                 if (spin.Color.CompareTo(bet) == 0)
                 {
-                    ret = amt * 2;
+                    ret = amt ;
                     Console.WriteLine("congrats you won $" + ret);
                     return ret;
                 }
@@ -97,7 +99,7 @@ namespace MonteCristo
                 
                 if (spin.Number == Int32.Parse(bet))
                 {
-                    ret= amt * (Max - Min);
+                    ret= amt * (Max - Min-1);
                     Console.WriteLine("congrats you won $" + ret);
                     return ret;
                 }

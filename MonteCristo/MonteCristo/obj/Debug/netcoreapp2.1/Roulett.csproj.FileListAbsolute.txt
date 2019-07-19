@@ -1,0 +1,11 @@
+C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\MontyCristo\MonteCristo\MonteCristo\bin\Debug\netcoreapp2.1\Roulett.deps.json
+C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\MontyCristo\MonteCristo\MonteCristo\bin\Debug\netcoreapp2.1\Roulett.runtimeconfig.json
+C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\MontyCristo\MonteCristo\MonteCristo\bin\Debug\netcoreapp2.1\Roulett.runtimeconfig.dev.json
+C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\MontyCristo\MonteCristo\MonteCristo\bin\Debug\netcoreapp2.1\Roulett.dll
+C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\MontyCristo\MonteCristo\MonteCristo\bin\Debug\netcoreapp2.1\Roulett.pdb
+C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\MontyCristo\MonteCristo\MonteCristo\obj\Debug\netcoreapp2.1\Roulett.csprojAssemblyReference.cache
+C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\MontyCristo\MonteCristo\MonteCristo\obj\Debug\netcoreapp2.1\Roulett.csproj.CoreCompileInputs.cache
+C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\MontyCristo\MonteCristo\MonteCristo\obj\Debug\netcoreapp2.1\Roulett.AssemblyInfoInputs.cache
+C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\MontyCristo\MonteCristo\MonteCristo\obj\Debug\netcoreapp2.1\Roulett.AssemblyInfo.cs
+C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\MontyCristo\MonteCristo\MonteCristo\obj\Debug\netcoreapp2.1\Roulett.dll
+C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\MontyCristo\MonteCristo\MonteCristo\obj\Debug\netcoreapp2.1\Roulett.pdb
