@@ -26,18 +26,13 @@ namespace Roulett
             }
         }
 
-        LinkedList<string> betTypesRoulett = new LinkedList<string>();
+       
         private Player p;
 
         public DataCollector()
         {
             p = new Player();
-            betTypesRoulett.AddFirst("red");
-            betTypesRoulett.AddLast("black");
-            for (int i = 1; i < 37; i++)
-            {
-                betTypesRoulett.AddLast("" + i);
-            }
+       
         }
 
         public void RunRoulettStats(int trials,double startingMoney, int maxRounds,double initialBet)
@@ -47,7 +42,7 @@ namespace Roulett
 
            
      
-                foreach (string bettype in betTypesRoulett)
+                foreach (string bettype in p.roulett.BetTypes)
                 {
                     for (int r = 1; r < maxRounds; r++)
                     {
@@ -79,6 +74,58 @@ namespace Roulett
 
 
             }
+
+        public void RunRoulettStats_Specific(int trials, double startingMoney, int Rounds, double initialBet, string betOn)
+        {
+
+
+            double maxMoney = 0;
+            int zeros = 0;
+            int amountGain = 0;
+            int amountLoss = 0;
+            int amountEven = 0;
+            double totalMoney = 0;
+            double avgMoney = 0;
+
+            for (int i = 0; i < trials; i++) {
+                p.Money = startingMoney;
+
+                double winnings = p.PlayRoulettInput(Rounds, betOn, initialBet);
+                if (winnings == 0)
+                {
+                    zeros++;
+                }
+                else if (maxMoney < winnings)
+                {
+                    maxMoney = winnings;
+                }
+                if (winnings > startingMoney)
+                {
+                    amountLoss++;
+                }
+                else if (winnings < startingMoney)
+                {
+                    amountGain++;
+                }
+                else
+                {
+                    amountEven++;
+                }
+                totalMoney += winnings;
+
+            }
+
+            avgMoney = totalMoney / trials;
+
+            Console.WriteLine("trials: " + trials + ", starting money: " + startingMoney + ", Rounds: " + Rounds + ",");
+            Console.WriteLine("Initial Bet: " + initialBet + ", bet On:" + betOn);
+            Console.WriteLine("Max Money " + maxMoney + ", Average Money: " + avgMoney + ", amount of zeros: " + zeros);
+            Console.WriteLine("Broke Even amt: " + amountEven + ", gained money: " + amountGain + ", lost money: " + amountLoss);
+        
+
+        }
+
+
 
 
 

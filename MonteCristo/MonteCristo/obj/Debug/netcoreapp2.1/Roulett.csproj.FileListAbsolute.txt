@@ -9,3 +9,14 @@ C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\MontyCristo\MonteCristo\MonteCri
 C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\MontyCristo\MonteCristo\MonteCristo\obj\Debug\netcoreapp2.1\Roulett.AssemblyInfo.cs
 C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\MontyCristo\MonteCristo\MonteCristo\obj\Debug\netcoreapp2.1\Roulett.dll
 C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\MontyCristo\MonteCristo\MonteCristo\obj\Debug\netcoreapp2.1\Roulett.pdb
+C:\Users\PDibble\Desktop\New folder\MontyCristo\MonteCristo\MonteCristo\bin\Debug\netcoreapp2.1\Roulett.deps.json
+C:\Users\PDibble\Desktop\New folder\MontyCristo\MonteCristo\MonteCristo\bin\Debug\netcoreapp2.1\Roulett.runtimeconfig.json
+C:\Users\PDibble\Desktop\New folder\MontyCristo\MonteCristo\MonteCristo\bin\Debug\netcoreapp2.1\Roulett.runtimeconfig.dev.json
+C:\Users\PDibble\Desktop\New folder\MontyCristo\MonteCristo\MonteCristo\bin\Debug\netcoreapp2.1\Roulett.dll
+C:\Users\PDibble\Desktop\New folder\MontyCristo\MonteCristo\MonteCristo\bin\Debug\netcoreapp2.1\Roulett.pdb
+C:\Users\PDibble\Desktop\New folder\MontyCristo\MonteCristo\MonteCristo\obj\Debug\netcoreapp2.1\Roulett.csprojAssemblyReference.cache
+C:\Users\PDibble\Desktop\New folder\MontyCristo\MonteCristo\MonteCristo\obj\Debug\netcoreapp2.1\Roulett.csproj.CoreCompileInputs.cache
+C:\Users\PDibble\Desktop\New folder\MontyCristo\MonteCristo\MonteCristo\obj\Debug\netcoreapp2.1\Roulett.AssemblyInfoInputs.cache
+C:\Users\PDibble\Desktop\New folder\MontyCristo\MonteCristo\MonteCristo\obj\Debug\netcoreapp2.1\Roulett.AssemblyInfo.cs
+C:\Users\PDibble\Desktop\New folder\MontyCristo\MonteCristo\MonteCristo\obj\Debug\netcoreapp2.1\Roulett.dll
+C:\Users\PDibble\Desktop\New folder\MontyCristo\MonteCristo\MonteCristo\obj\Debug\netcoreapp2.1\Roulett.pdb

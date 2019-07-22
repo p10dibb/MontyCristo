@@ -1,0 +1,59 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\PDibble\\Desktop\\New folder\\MontyCristo\\MonteCristo\\MonteCristo\\Roulett.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\PDibble\\Desktop\\New folder\\MontyCristo\\MonteCristo\\MonteCristo\\Roulett.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PDibble\\Desktop\\New folder\\MontyCristo\\MonteCristo\\MonteCristo\\Roulett.csproj",
+        "projectName": "Roulett",
+        "projectPath": "C:\\Users\\PDibble\\Desktop\\New folder\\MontyCristo\\MonteCristo\\MonteCristo\\Roulett.csproj",
+        "packagesPath": "C:\\Users\\PDibble\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PDibble\\Desktop\\New folder\\MontyCristo\\MonteCristo\\MonteCristo\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\PDibble\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

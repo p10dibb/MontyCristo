@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using System.IO;
 
 namespace Roulett
 {
@@ -11,10 +12,13 @@ namespace Roulett
             Stopwatch sw = new Stopwatch();
             DataCollector d = new DataCollector();
             sw.Start();
-            d.RunRoulettStats(10000, 1000, 30, 1);
+            // d.RunRoulettStats(10000, 1000, 30, 1);
+            d.RunRoulettStats_Specific(10, 200, 10, 1, "red");
             sw.Stop();
             Console.WriteLine(sw.Elapsed.Seconds+"seconds");
 
+            string createText = "Hello and Welcome" + Environment.NewLine;
+            File.WriteAllText("C:\\Users\\PDibble\\Desktop\\New folder\\MontyCristo\\MonteCristo\\out.csv", createText);
 
             //Player p = new Player(2000);
             //double total = 0;
@@ -26,7 +30,7 @@ namespace Roulett
             //double avg=total/10000;
             //Console.WriteLine("avg: " + avg);
 
-       
+
         }
     }
 }
