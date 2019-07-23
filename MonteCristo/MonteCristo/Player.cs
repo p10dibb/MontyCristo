@@ -8,10 +8,11 @@ namespace Roulett
     {
         private double money;
         private Random rand = new Random();
-        public Roulett roulett = new Roulett();
+        public Roulett roulett;
 
         public Player()
         {
+            roulett = new Roulett();
             money = 0;
 
 
@@ -19,6 +20,7 @@ namespace Roulett
         public Player(double m)
         {
             money = m;
+            roulett = new Roulett();
 
 
         }

@@ -46,7 +46,8 @@ namespace Roulett
     
         private Box[] Boxes;
         private static Random rand = new Random(DateTime.Now.Second);
-        LinkedList<string> betTypes = new LinkedList<string>();
+       List<string> betTypes = new List<string>();
+        
 
         public Roulett()
         {
@@ -91,12 +92,12 @@ namespace Roulett
             Boxes[37]=new Box("green","00");
            
 
-            betTypes.AddFirst("red");
-            betTypes.AddLast("black");
-            betTypes.AddLast("00");           
+            betTypes.Add("red");
+            betTypes.Add("black");
+            betTypes.Add("00");           
             for (int i = 0; i < 37; i++)
             {
-                betTypes.AddLast("" + i);
+                betTypes.Add("" + i);
             }
 
         }
@@ -148,9 +149,9 @@ namespace Roulett
             Console.WriteLine("invalid Bet");
             return 0;
         }
-        public LinkedList<string> BetTypes
+        public List<string> BetTypes
         {
-            get { return this.BetTypes; }
+            get { return this.betTypes; }
         }
     }
 
